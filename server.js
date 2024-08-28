@@ -32,9 +32,9 @@ app.get("/login", (req, res) => {
 //Cloudinary
 
 cloudinary.config({
-  cloud_name: "dbyaovhie",
-  api_key: "234973635322452",
-  api_secret: "x3xNV5Ahd4nqQq9uU7SLFB1bCX8",
+  cloud_name:process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
 });
 
 
