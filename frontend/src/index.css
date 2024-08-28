@@ -10,6 +10,8 @@
     font-family: "Roboto", sans-serif;
   }
   html{
+    min-width: 100vw;
+    overflow: hidden;
     min-height: 100vh;
   }
   
@@ -19,7 +21,8 @@
     height: 100%;
   }
   body{
-    
+    padding: 1.2rem;
+    width: 100%;
     min-height: 100vh;
   }
 }

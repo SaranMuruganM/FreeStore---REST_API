@@ -83,10 +83,9 @@ const getProductByCategory = async (req, res) => {
 
 
 const getAllCategories = async (req, res) => {
-  console.log("fetching");
   try {
     const categories = await Product.distinct("category");
-    console.log(categories);
+    
     res.status(200).json(categories);
   } catch (error) {
     res.status(500).json({ message: error.message });

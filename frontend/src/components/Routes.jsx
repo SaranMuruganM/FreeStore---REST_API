@@ -2,7 +2,7 @@ import React from 'react'
 
 const Routes = () => {
   return (
-    <div className="mt-[10vh] space-y-3 text-sm  px-[15rem]">
+    <div className="mt-[10vh] space-y-3 text-sm  md:px-[15rem]">
       <div className="text-xl font-semibold text-[#0A2E36] tracking-wide">
         Routes
       </div>
