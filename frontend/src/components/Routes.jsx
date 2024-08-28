@@ -26,7 +26,7 @@ const Routes = () => {
         </div>
         <div className="flex items-center gap-80">
           <a href="http://localhost:5100/api/products">GET</a>
-          <a href="http://localhost:5100/api/products/categories/mobiles">
+          <a href="http://localhost:5100/api/products/category/mobiles">
             /products/categories/mobiles
           </a>
         </div>
