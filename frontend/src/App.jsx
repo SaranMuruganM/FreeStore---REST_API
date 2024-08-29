@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const Layout = ({ children }) => (
   <>
-    <NavBar />
+   
     {children}
   </>
 );
@@ -19,10 +19,13 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <Layout>
-        <Hero />
-        <About />
-        <Routes/>
-        <Footer/>
+        <div className="md:px-52 px-4">
+          <NavBar />
+          <Hero />
+          <About />
+          <Routes />
+        </div>
+        <Footer />
       </Layout>
     ),
   },

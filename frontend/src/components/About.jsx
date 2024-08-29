@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="space-y-3 mt-[10vh] text-center text-sm md:px-[15rem]">
+    <div className="space-y-3 mt-[10vh] text-center text-sm ">
       <p className="font-semibold tracking-wide">
         Get tired of Lorem ipsum data?!
       </p>
