@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import About from "./components/about";
+import About from "./components/About";
 import Routes from "./components/Routes";
 import Footer from "./components/Footer";
 
